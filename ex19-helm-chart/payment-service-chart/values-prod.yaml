@@ -1,0 +1,14 @@
+replicaCount: 5
+
+config:
+  appEnv: prod
+  logLevel: error
+
+resources:
+  requests:
+    cpu: 500m
+    memory: 512Mi
+
+  limits:
+    cpu: 1000m
+    memory: 1Gi
