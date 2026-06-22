@@ -57,3 +57,10 @@ jobs:
   - name: Push Docker Image
     run: |
       docker push 481665116349.dkr.ecr.us-east-1.amazonaws.com/payment-service:latest
+  - name: Run Trivy Security Scan
+    uses: aquasecurity/trivy-action@master
+    with:
+      image-ref: payment-service:latest
+      format: table
+      exit-code: 1
+      severity: CRITICAL,HIGH
