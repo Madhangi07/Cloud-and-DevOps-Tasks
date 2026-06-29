@@ -69,3 +69,10 @@ Investigate the payment-service for:
 - logs-analysis.md
 - trace-analysis.md
 - README.md
+
+## Supporting Configuration
+
+- payment-service.yaml
+- prometheus.yml
+- tempo-config.yaml
+- grafana-dashboard.json

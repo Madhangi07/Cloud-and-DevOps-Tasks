@@ -1,0 +1,14 @@
+{
+  "title": "Checkout Service Latency",
+  "panels": [
+    {
+      "title": "95th Percentile Latency"
+    },
+    {
+      "title": "Request Rate"
+    },
+    {
+      "title": "Error Rate"
+    }
+  ]
+}
