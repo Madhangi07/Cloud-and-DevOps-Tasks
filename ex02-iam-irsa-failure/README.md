@@ -46,3 +46,9 @@ IRSA configuration failure.
 - root-cause.md
 - resolution.md
 - README.md
+
+## Configuration Files
+
+- serviceaccount.yaml
+- iam-policy.json
+- trust-policy.json
