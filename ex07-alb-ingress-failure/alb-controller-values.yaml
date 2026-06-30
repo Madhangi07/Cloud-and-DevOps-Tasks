@@ -1,0 +1,13 @@
+clusterName: payment-cluster
+
+region: ap-south-1
+
+vpcId: vpc-xxxxxxxx
+
+serviceAccount:
+  create: false
+  name: aws-load-balancer-controller
+
+autoDiscoverAwsRegion: true
+
+autoDiscoverAwsVpcID: true
