@@ -1,0 +1,33 @@
+$ kubectl get nodes
+
+NAME             STATUS      ROLES   AGE
+
+worker-node-1    NotReady    <none>  28d
+
+worker-node-2    Ready        <none>  28d
+
+worker-node-3    Ready        <none>  28d
+
+
+$ kubectl describe node worker-node-1
+
+DiskPressure=True
+
+Ready=False
+
+Reason:
+
+KubeletHasDiskPressure
+
+
+$ df -h
+
+Filesystem
+
+/dev/xvda1
+
+100G
+
+98G
+
+98%
