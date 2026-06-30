@@ -1,0 +1,37 @@
+08:55
+
+AWS Secrets Manager rotated Redis password.
+
+09:00
+
+Application deployed successfully.
+
+09:05
+
+Users reported HTTP 503.
+
+09:06
+
+Application logs:
+
+Cannot connect to Redis.
+
+09:10
+
+Redis logs:
+
+Authentication failed.
+
+09:20
+
+External Secret synchronization investigated.
+
+09:30
+
+Secret synchronized.
+
+Application restarted.
+
+09:32
+
+Service restored.
