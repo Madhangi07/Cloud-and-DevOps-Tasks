@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+
+metadata:
+  name: ssl-information
+
+data:
+  provider: AWS Certificate Manager
+
+  protocol: HTTPS
+
+  port: "443"
+
+  redirect: HTTP_TO_HTTPS
