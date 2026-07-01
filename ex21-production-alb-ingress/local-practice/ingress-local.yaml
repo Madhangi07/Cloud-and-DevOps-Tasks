@@ -1,0 +1,33 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: ex21-ingress
+spec:
+  ingressClassName: nginx
+
+  rules:
+  - http:
+      paths:
+      - path: /api
+        pathType: Prefix
+        backend:
+          service:
+            name: ex21-api
+            port:
+              number: 80
+
+      - path: /admin
+        pathType: Prefix
+        backend:
+          service:
+            name: ex21-admin
+            port:
+              number: 80
+
+      - path: /dashboard
+        pathType: Prefix
+        backend:
+          service:
+            name: ex21-dashboard
+            port:
+              number: 80
