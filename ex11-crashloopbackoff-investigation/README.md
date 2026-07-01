@@ -57,3 +57,9 @@ Database connectivity issue.
 - root-cause.md
 - resolution.md
 - README.md
+
+## Supporting Configuration
+
+- deployment.yaml
+- secret.yaml
+- database-service.yaml
