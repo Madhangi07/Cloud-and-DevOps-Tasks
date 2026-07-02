@@ -1,0 +1,6 @@
+tempo:
+
+  retention: 24h
+
+service:
+  type: ClusterIP

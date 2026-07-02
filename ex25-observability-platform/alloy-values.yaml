@@ -1,0 +1,7 @@
+alloy:
+
+  configMap:
+    create: true
+
+  controller:
+    replicas: 1
